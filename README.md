@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # SophieBlue
 =======
 # Portfolio-architecte-sophie-bluel
