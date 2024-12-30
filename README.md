@@ -2,7 +2,7 @@
 =======
 # Portfolio-architecte-sophie-bluel
 
-Code du projet 6 SophieBlue
+Code du projet SophieBlue
 
 ## pour le lancer le code
 
