@@ -195,4 +195,17 @@ const labelImage = document.getElementById("label-image");
 const pImage = document.querySelector("#form-photo-div > p");
 const iconeImage = document.querySelector("#iModalImage");
 
-inputImage.addEventListener("change", function (){})
+inputImage.addEventListener("change", function () {
+  const selectedImage = inputImage.files[0];
+
+  const imgPreview = document.createElement("img");
+  imgPreview.src = URL.createObjectURL(selectedImage);
+  imgPreview.style.maxHeight = "100%";
+  imgPreview.style.width = "auto";
+
+  labelImage.style.display = "none";
+  pImage.style.display = "none";
+  inputImage.style.display = "none";
+  iModalImage.style.display = "none";
+  document.getElementById("form-photo-div").appendChild(imgPreview);
+});
