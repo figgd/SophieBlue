@@ -45,8 +45,30 @@ returnBtn.addEventListener('click', function(){
 
 modalPhotoClose.addEventListener('click', hideModal);
 
+document.addEventListener("DOMContentLoaded", () => {
 
-//Ajouter au modal//
+  function showModal() {
+    document.getElementById("modal").style.display = "block";
+  }
+
+
+  document.getElementById("modal-close").addEventListener("click", function() {
+    document.getElementById("modal").style.display = "none";
+  });
+
+
+  document.getElementById("modal-photo-close").addEventListener("click", function() {
+    document.getElementById("modal-photo").style.display = "none";
+  });
+
+
+  document.getElementById("modal-return").addEventListener("click", function() {
+    document.getElementById("modal-photo").style.display = "none";
+  });
+
+
+  document.querySelector("#modal-trigger").addEventListener("click", showModal);
+});
 
 const imagesModalContainer = document.querySelector('.gallery-modal')
 
