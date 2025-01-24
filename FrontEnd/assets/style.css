@@ -1,7 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -309,20 +305,11 @@ nav li,a {
 	top: 0;
 	width: 100%;
 	height: 100%;
-<<<<<<< HEAD
-	overflow: auto;
-	
-=======
 	background-color: rgba(0, 0, 0, 0.5);
->>>>>>> 062b23d (update)
   }
   
   #modal-content {
 	background-color: #fff;
-<<<<<<< HEAD
-	margin: 15% auto;
-=======
->>>>>>> 062b23d (update)
 	padding: 20px;
 	border: 1px solid #888;
 	border-radius: 10px;
@@ -330,17 +317,14 @@ nav li,a {
 	max-width: 650px;
 	text-align: center;
 	position: relative;
-	max-height: 670px;
+	max-height: 650px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-<<<<<<< HEAD
-=======
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -50%); /* Centrage exact */
->>>>>>> 062b23d (update)
+	transform: translate(-50%, -50%); 
   }
 
   #modal-content h2{
@@ -420,11 +404,7 @@ nav li,a {
     color: white;
     top: 3px;
     right: 3px;
-<<<<<<< HEAD
-    width: 15px;
-=======
     width: 15px;       
->>>>>>> 062b23d (update)
     height: 15px;
     cursor: pointer;
     padding: 4px;
@@ -437,24 +417,16 @@ nav li,a {
 
 #modal-photo {
 	background-color: #fff;
-<<<<<<< HEAD
-	margin: 15% auto;
-=======
->>>>>>> 062b23d (update)
 	padding: 20px;
 	border: 1px solid #888;
 	border-radius: 10px;
 	width: 80%;
 	max-width: 650px;
 	text-align: center;
-<<<<<<< HEAD
-	position: relative;
-=======
 	position: fixed; 
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%); 
->>>>>>> 062b23d (update)
 	max-height: 660px;
 	display: flex;
 	flex-direction: column;
@@ -571,16 +543,6 @@ nav li,a {
 
   /*admin*/
 
-<<<<<<< HEAD
-#admin-logged{
-	width: 100%;
-	background-color: black;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin-top: 0px;
-	height: 50px;
-=======
   #admin-logged {
     width: 100%; 
     background-color: black;
@@ -591,7 +553,6 @@ nav li,a {
     position: relative;
     margin-left: auto;
     margin-right: auto; 
->>>>>>> 062b23d (update)
 }
 
 #logo-edition{
@@ -647,9 +608,6 @@ nav li,a {
 	margin-left: 30px;
 	font-size: 1.2em;
 }
-<<<<<<< HEAD
-=======
 body.no-scroll {
 	overflow: hidden;
 }
->>>>>>> 062b23d (update)
